@@ -22,7 +22,7 @@ export const menuLinks: HeaderMenuLink[] = [
   },
 
   {
-    label: "Entorno SimpleSeap",
+    label: "Entorno SimpleSwap",
     href: "/debug",
     icon: <BugAntIcon className="h-4 w-4" />,
   },
