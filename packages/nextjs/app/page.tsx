@@ -18,7 +18,7 @@ const Home: NextPage = () => {
             <span className="block text-4xl font-bold">SimpleSwap - TP4</span>
           </h1>
           <div className="flex justify-center items-center space-x-2 flex-col">
-            <p className="my-2 font-medium">Connected Address:</p>
+            <p className="my-2 font-medium">Cuenta Conectada:</p>
             <Address address={connectedAddress} />
           </div>
         </div>
@@ -39,7 +39,7 @@ const Home: NextPage = () => {
               <MagnifyingGlassIcon className="h-8 w-8 fill-secondary" />
               <p>
                 Explorar la Blockchain{" "}
-                <Link href="/blockexplorer" passHref className="link">
+                <Link href="https://sepolia.etherscan.io/" passHref className="link">
                   Block Explorer
                 </Link>{" "}
                 .
